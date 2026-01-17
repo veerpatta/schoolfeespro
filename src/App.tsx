@@ -12,7 +12,8 @@ import './App.css';
 function App() {
   return (
     <HashRouter>
-      <nav style={{ padding: '10px', background: '#f0f0f0', marginBottom: '20px' }}>
+      <nav style={{ padding: '10px', background: '#f0f0f0', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <strong style={{ marginRight: '20px' }}>SchoolFeesPro</strong>
         <Link to="/login" style={{ marginRight: '10px' }}>Login</Link>
         <Link to="/director" style={{ marginRight: '10px' }}>Director</Link>
         <Link to="/staff" style={{ marginRight: '10px' }}>Staff</Link>
